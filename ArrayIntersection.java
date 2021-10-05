@@ -22,12 +22,12 @@ public class ArrayIntersection {
 		// which has matching values and then break the loop
 		for (int i = 0; i < arr1.length;i++) {
 			for (int j = 1; j < arr2.length; j++) {
-				if (arr1[i] == arr2[j])  {
-				//	if ((arr1[i] == arr2[j]) && arr2[j] == 2) {
+				//if (arr1[i] == arr2[j])  {
+					if ((arr1[i] == arr2[j]) && arr2[j] == 2) {
 					System.out.println(
 							"The values that are matching in arr1 and arr2 are :" + arr1[i] + " and " + arr2[j]);
 					
-					break;
+					
 
 				}
 
